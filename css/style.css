@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.container {
+	max-width:calc(1600px+10%);
+	margin: 0 auto;
+	padding:0 5% ;
+}
+.carousel-container{
+position: relative;
+width: 100%;
+height: 31.25vw;
+background-color: aquamarine;
+}
+.carousel-picture{
+position: absolute;
+width: 100%;
+height: 100%;
+background-image: url(../img/carousel/1600x600.jpg);
+}
+carousel-text{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	padding:0 95px;
+}
+.coursel-text>h2{
+	margin: 0 0 20px 0 ;
+	font-size: 36px;
+}
+.carousel-text>p{
+	width: 510px;
+	margin: 0 0 25px 0 ;
+}
+.buy-now-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 124px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+.buy-now-btn{
+	transition-duration: underline;
+}
+.buy-now-btn:hover>span{
+	text-decoration: underline;
+}
+.buy-now-btn>i{
+	margin-left: 5px;
+}
+.buy-now-btn:hover>i{
+	margin-left: 15px;
+}
